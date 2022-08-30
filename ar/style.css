@@ -349,6 +349,7 @@ footer p a{
     .path{
         overflow-y: hidden;
         align-items: flex-start;
+        order: 2;
     }
     .path > div{
         margin-left: 10px;
