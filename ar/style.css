@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Roboto+Slab:wght@300&display=swap');
+
 :root{
     --bgColor : #123E5C;
     --dark-bg: #091f2e;
@@ -19,10 +20,11 @@
 body{
     background-color: var(--bgColor);
     color: #fff;
-    font-family: 'Roboto Slab', Arial, serif;
     height: 100vh;
     overflow: hidden;
     width: 100%;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+
 }
 
 a{
@@ -30,6 +32,7 @@ a{
 }
 /* Styling Header */
 header{
+    font-family: 'Roboto Slab', Arial, serif;
     background-color: var(--black);
     height: 72px;
 }
@@ -65,7 +68,7 @@ nav #language-change{
     background-color: #fff;
     border-radius: 10px;
     padding: 12px;
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
+
 }
 
 .nav-link.active{
@@ -175,38 +178,6 @@ header::after{
 
 }
 
-/* .path .line ul{
-    width: 0;
-    background-color: var(--line1);
-    position: relative;
-    padding: 5px 0 5px 10px;
-    border-radius: 20px;
-}
-.path .line ul li{
-    position: relative;
-    display: inline-block;
-    width: max-content;
-    height: 34px;
-    margin-left: 20px;
-}
-.path .line ul li::before{
-    content: "";
-    position: absolute;
-    display: block;
-    width: 20px;
-    height: 20px;
-    background-color: var(--bgColor);
-    border: 4px solid var(--line1);
-    border-radius: 16px;
-    left: -38px;
-
-}
-.path .line ul li:hover::before{
-    background-color: var(--line1);
-
-} */
-
-/* End of styling the map box */
 
 /* Styling the side box */
 .side{
@@ -217,6 +188,7 @@ header::after{
     padding: 10px;
     justify-content: center;
     align-items: center;
+    direction: rtl;
 }
 .side .tab{
     flex: 1;
@@ -234,12 +206,17 @@ div.destination-box >  div{
     flex:1;
     margin: 10px 5px;
 }
+div.destination-box i {
+    display: inline-block;
+    margin-left: 10px;
+}
 select {
     outline:none;
     padding: 12px 10px;
     font-size: 16px;
     border: 10px solid var(--bgColor);
     border-radius: 20px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 /* Output Box */
 .output-box{
