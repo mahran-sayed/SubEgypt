@@ -1,4 +1,4 @@
-import Stations from '/classes/Stations.js';
+import Stations from './classes/Stations.js';
 
 // Declaring Variables
 const selectElemDiv = document.querySelectorAll(".destination-box select");
