@@ -354,4 +354,7 @@ footer p a{
     .path > div{
         margin-left: 10px;
     }
+    nav #language-change{
+        font-size: 10px;
+    }
 }
