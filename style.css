@@ -18,6 +18,7 @@ body{
     font-family: 'Roboto Slab', Arial, serif;
     height: 100vh;
     overflow: hidden;
+    width: 100%;
 }
 
 a{
@@ -78,7 +79,6 @@ header::after{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 95%;
     overflow-y: scroll;
     overflow-x: hidden;
     margin: 20px;
@@ -335,6 +335,15 @@ footer p a{
 
 /* Responsive */
 @media only screen and (max-width: 600px) {
+    body{
+        overflow-y: auto;
+    }
+    .container{
+        height: auto;
+    }
+    div.destination-box{
+        flex-direction: column;
+    }
     .container{
         flex-direction: column;
     }
