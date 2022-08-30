@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+:root{
+    --bgColor : #123E5C;
+    --blue : #0097FE;
+    --line1: #FF2B6E;
+    --line2: #732DFF;
+    --line3: #AD90F4;
+    --black: #1D1E22;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bgColor);
+    color: #fff;
+    font-family: 'Roboto Slab', Arial, serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+/* Styling Header */
+header{
+    background-color: var(--black);
+    height: 72px;
+    font-size: 38px;
+}
+
+nav{
+    height: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    padding: 16px 14px;
+}
+
+.nav-link.active{
+    color: #fff;
+}
+
+header::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Styling the container */
+.container{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+
+}
+/* Styling the map box */
+.path{
+    height: auto;
+    background-color: var(--bgColor);
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+    overflow-y: scroll;
+    margin: 20px;
+}
+.path ul{
+    list-style-type: none;
+    margin: 20px;
+    text-align: left;
+    width: 0;
+    
+    position: relative;
+    padding: 5px 0 5px 10px;
+    border-radius: 20px;
+}
+.path ul li{
+    position: relative;
+    display: block;
+    width: max-content;
+    height: 34px;
+    margin-left: 20px;
+}
+.path ul li::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: var(--bgColor);
+    border-radius: 16px;
+    left: -38px;
+}
+.path ul li.interchange::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 600;
+    font-size: 10px; 
+    text-align: center;
+    content: "\f0ec";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.path > div{
+    height: 100%;
+    margin-left: -50px;
+}
+.path .line1 ul{
+    background-color: var(--line1);
+}
+.path .line2 ul{
+    background-color: var(--line2);
+}
+.path .line3 ul{
+    background-color: var(--line3);
+}
+
+.path .line1 ul li::before{
+    border: 4px solid var(--line1);
+}
+.path .line2 ul li::before{
+    border: 4px solid var(--line2);
+}
+.path .line3 ul li::before{
+    border: 4px solid var(--line3);
+}
+.path .line1 ul li:hover::before{
+    background-color: var(--line1);
+
+}
+.path .line2 ul li:hover::before{
+    background-color: var(--line2);
+
+}
+.path .line3 ul li:hover::before{
+    background-color: var(--line3);
+
+}
+
+/* .path .line ul{
+    width: 0;
+    background-color: var(--line1);
+    position: relative;
+    padding: 5px 0 5px 10px;
+    border-radius: 20px;
+}
+.path .line ul li{
+    position: relative;
+    display: inline-block;
+    width: max-content;
+    height: 34px;
+    margin-left: 20px;
+}
+.path .line ul li::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: var(--bgColor);
+    border: 4px solid var(--line1);
+    border-radius: 16px;
+    left: -38px;
+
+}
+.path .line ul li:hover::before{
+    background-color: var(--line1);
+
+} */
+
+/* End of styling the map box */
+
+/* Styling the side box */
+.side{
+    display: flex;
+    height: auto;
+    background-color: #012138;
+    flex: 1;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.side .tab{
+    flex: 1;
+}
+/* From-To Box */
+div.destination-box{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    font-size: 20px;
+}
+div.destination-box >  div{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    margin: 10px 5px;
+}
+select {
+    outline:none;
+    padding: 12px 10px;
+    font-size: 16px;
+    border: 10px solid var(--bgColor);
+    border-radius: 20px;
+}
+/* Output Box */
+.output-box{
+    background-color: #fff;
+    color: #000;
+    width: 80%;
+    margin: 14px auto;
+    border: 10px solid var(--bgColor);
+    border-radius: 20px;
+    
+}
+#estimated-time{
+    grid-column: 1 / 3;
+    margin: 0 auto;
+}
+
+.output-box > div{
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+.output-box div label{
+    display: block;
+    flex: 1;
+    padding: 10px;
+    font-weight: bold;
+}
+.output-box div span{
+    display: block;
+    flex: 1;
+    padding: 10px;
+
+}
+.output-box .output{
+    display: inline-block;
+    padding:5px;
+    text-align:center;
+    margin-left:5px;
+    
+}
+/* Info Box */
+.info-box h2{
+    text-align: center;
+    background: #fff;
+    color: #000;
+}
+.info-box .row{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.info-box .row > div{
+    text-align:center;
+    width:100%;
+}
+.info-box .row .station-name{
+    width:100%;
+    padding: 12px;
+    background-color:var(--bgColor);
+}
+.info-box div:nth-child(1){
+    border-right: 1px solid #fff;
+}
+.info-box ul{
+    list-style-type: none;
+    background-color: #fff;
+}
+[class *= "fa"]{
+    display: inline-block;
+    margin-right: 7px;
+    color: #fff;
+}
+/* Reporting Box */
+.report-box{
+    margin: 20px auto;
+    text-align: center;
+}
+.report-box a{
+    color: var(--line1);
+    font-size: 20px;
+}
+/* Footer Sytling */
+footer{
+    height: calc(20vh - 72px);
+    background-color: var(--black);
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    font-size: 20px;
+
+}
+footer p a{
+    text-decoration: none;
+    color: red;
+}
+
+/* Making custom scrollbar */
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--black); 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px var(--black); 
+}

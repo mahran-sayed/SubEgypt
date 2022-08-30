@@ -1,0 +1,865 @@
+[
+    {
+        "New El-Marg": {
+            "line": 1,
+            "order": 0,
+            "ar": "المرج الجديدة",
+            "dt": 0,
+            "time": "00:00",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°9′48″N 31°20′18″E"
+        },
+        "El-Marg": {
+            "line": 1,
+            "order": 1,
+            "ar": "المرج",
+            "dt": 3,
+            "time": "00:03",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°9′8″N 31°20′8″E"
+        },
+        "Ezbet El-Nakhl": {
+            "line": 1,
+            "order": 2,
+            "ar": "عزبة النخل",
+            "dt": 3,
+            "time": "00:06",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°8′21″N 31°19′28″E"
+        },
+        "Ain Shams": {
+            "line": 1,
+            "order": 3,
+            "ar": "عين شمس",
+            "dt": 2,
+            "time": "00:08",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°7′52″N 31°19′9″E"
+        },
+        "El-Matareyya": {
+            "line": 1,
+            "order": 4,
+            "ar": "المطرية",
+            "dt": 2,
+            "time": "00:10",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°7′17″N 31°18′50″E"
+        },
+        "Helmeyet El-Zaitoun": {
+            "line": 1,
+            "order": 5,
+            "ar": "حلمية الزيتون",
+            "dt": 2,
+            "time": "00:12",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°6′52″N 31°18′50″E"
+        },
+        "Hadayeq El-Zaitoun": {
+            "line": 1,
+            "order": 6,
+            "ar": "حدائق الزيتون",
+            "dt": 2,
+            "time": "00:14",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°6′19″N 31°18′36″E"
+        },
+        "Saray El-Qobba": {
+            "line": 1,
+            "order": 7,
+            "ar": "ساراي القبة",
+            "dt": 2,
+            "time": "00:16",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°5′53″N 31°18′17″E"
+        },
+        "Hammamat El-Qobba": {
+            "line": 1,
+            "order": 8,
+            "ar": "حمامات القبة",
+            "dt": 2,
+            "time": "00:18",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°5′25″N 31°17′53″E"
+        },
+        "Kobri El-Qobba": {
+            "line": 1,
+            "order": 9,
+            "ar": "كوبري القبة",
+            "dt": 1,
+            "time": "00:19",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°5′13″N 31°17′38″E"
+        },
+        "Manshiet El-Sadr": {
+            "line": 1,
+            "order": 10,
+            "ar": "منشية الصدر",
+            "dt": 2,
+            "time": "00:21",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°4′56″N 31°17′16″E"
+        },
+        "El-Demerdash": {
+            "line": 1,
+            "order": 11,
+            "ar": "الدمرداش",
+            "dt": 2,
+            "time": "00:23",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°4′38″N 31°16′40″E"
+        },
+        "Ghamra": {
+            "line": 1,
+            "order": 12,
+            "ar": "غمرة",
+            "dt": 3,
+            "time": "00:26",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°4′8″N 31°15′53″E"
+        },
+        "Al-Shohadaa": {
+            "line": 1,
+            "order": 13,
+            "ar": "الشهداء",
+            "dt": 3,
+            "time": "00:29",
+            "isOpen": 1,
+            "isInterchange": {
+                "to": 2,
+                "status": 1
+            },
+            "isUnderground": 1,
+            "location": "30°3′43″N 31°14′46″E"
+        },
+        "Orabi": {
+            "line": 1,
+            "order": 14,
+            "ar": "عرابي",
+            "dt": 2,
+            "time": "00:31",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°3′27″N 31°14′33″E"
+        },
+        "Nasser": {
+            "line": 1,
+            "order": 15,
+            "ar": "جمال عبدالناصر",
+            "dt": 1,
+            "time": "00:32",
+            "isOpen": 1,
+            "isInterchange": {
+                "to": 3,
+                "status": 0
+            },
+            "isUnderground": 1,
+            "location": "30°3′13″N 31°14′20″E"
+        },
+        "Sadat": {
+            "line": 1,
+            "order": 16,
+            "ar": "السادات",
+            "dt": 2,
+            "time": "00:34",
+            "isOpen": 1,
+            "isInterchange": {
+                "to": 2,
+                "status": 1
+            },
+            "isUnderground": 1,
+            "location": "30°2′40″N 31°14′8″E"
+        },
+        "Saad Zaghloul": {
+            "line": 1,
+            "order": 17,
+            "ar": "سعد زغلول",
+            "dt": 2,
+            "time": "00:36",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°2′12″N 31°14′17″E"
+        },
+        "Al-Sayeda Zeinab": {
+            "line": 1,
+            "order": 18,
+            "ar": "السيدة زينب",
+            "dt": 2,
+            "time": "00:38",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°1′45″N 31°14′7″E"
+        },
+        "El-Malek El-Saleh": {
+            "line": 1,
+            "order": 19,
+            "ar": "الملك الصالح",
+            "dt": 2,
+            "time": "00:40",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°1′1″N 31°13′51″E"
+        },
+        "Mar Girgis": {
+            "line": 1,
+            "order": 20,
+            "ar": "مار جرجس",
+            "dt": 3,
+            "time": "00:43",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°0′21″N 31°13′46″E"
+        },
+        "El-Zahraa'": {
+            "line": 1,
+            "order": 21,
+            "ar": "الزهراء",
+            "dt": 2,
+            "time": "00:45",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "29°59′43″N 31°13′54″E"
+        },
+        "Dar El-Salam": {
+            "line": 1,
+            "order": 22,
+            "ar": "دار السلام",
+            "dt": 3,
+            "time": "00:48",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "29°58′55″N 31°14′32″E"
+        },
+        "Hadayek El-Maadi": {
+            "line": 1,
+            "order": 23,
+            "ar": "حدائق المعادي",
+            "dt": 3,
+            "time": "00:51",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "29°58′12″N 31°15′2″E"
+        },
+        "Maadi": {
+            "line": 1,
+            "order": 24,
+            "ar": "المعادي",
+            "dt": 2,
+            "time": "00:53",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "29°57′35″N 31°15′29″E"
+        },
+        "Sakanat El-Maadi": {
+            "line": 1,
+            "order": 25,
+            "ar": "ثكنات المعادي",
+            "dt": 2,
+            "time": "00:55",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "29°57′10″N 31°15′48″E"
+        },
+        "Tora El-Balad": {
+            "line": 1,
+            "order": 26,
+            "ar": "طرة البلد",
+            "dt": 2,
+            "time": "00:57",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "29°56′47″N 31°16′25″E"
+        },
+        "Kozzika": {
+            "line": 1,
+            "order": 27,
+            "ar": "كوتسيكا",
+            "dt": 3,
+            "time": "01:00",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "29°56′10″N 31°16′54″E"
+        },
+        "Tora El-Asmant": {
+            "line": 1,
+            "order": 28,
+            "ar": "طرة الأسمنت",
+            "dt": 2,
+            "time": "01:02",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "29°55′33″N 31°17′16″E"
+        },
+        "El-Maasara": {
+            "line": 1,
+            "order": 29,
+            "ar": "المعصرة",
+            "dt": 5,
+            "time": "01:07",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "29°54′22″N 31°17′59″E"
+        },
+        "Hadayek Helwan": {
+            "line": 1,
+            "order": 30,
+            "ar": "حدائق حلوان",
+            "dt": 2,
+            "time": "01:09",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "29°53′50″N 31°18′15″E"
+        },
+        "Wadi Hof": {
+            "line": 1,
+            "order": 31,
+            "ar": "وادي حوف",
+            "dt": 4,
+            "time": "01:13",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "29°52′46″N 31°18′48″E"
+        },
+        "Helwan University": {
+            "line": 1,
+            "order": 32,
+            "ar": "جامعة حلوان",
+            "dt": 2,
+            "time": "01:15",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "29°52′8″N 31°19′13″E"
+        },
+        "Ain Helwan": {
+            "line": 1,
+            "order": 33,
+            "ar": "عين حلوان",
+            "dt": 2,
+            "time": "01:17",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "29°51′46″N 31°19′30″E"
+        },
+        "Helwan": {
+            "line": 1,
+            "order": 34,
+            "ar": "حلوان",
+            "dt": 2,
+            "time": "01:19",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "29°50′56″N 31°20′3″E"
+        },
+        
+        "El-Mounib": {
+            "line": 2,
+            "order": 0,
+            "ar": "المنيب",
+            "dt": 0,
+            "time": "00:00",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "29°58′53″N 31°12′43″E"
+        },
+        "Sakiat Mekky": {
+            "line": 2,
+            "order": 1,
+            "ar": "ساقية مكي",
+            "dt": 2,
+            "time": "00:02",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "29°59′44″N 31°12′31″E"
+        },
+        "Omm El-Masryeen": {
+            "line": 2,
+            "order": 2,
+            "ar": "أم المصريين",
+            "dt": 3,
+            "time": "00:05",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°0′19″N 31°12′29″E"
+        },
+        "El Giza": {
+            "line": 2,
+            "order": 3,
+            "ar": "الجيزة",
+            "dt": 1,
+            "time": "00:06",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°0′38″N 31°12′25″E"
+        },
+        "Faisal": {
+            "line": 2,
+            "order": 4,
+            "ar": "فيصل",
+            "dt": 2,
+            "time": "00:08",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°1′2″N 31°12′14″E"
+        },
+        "Cairo University": {
+            "line": 2,
+            "order": 5,
+            "ar": "جامعة القاهرة",
+            "dt": 2,
+            "time": "00:10",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°1′34″N 31°12′4″E"
+        },
+        "El Bohoth": {
+            "line": 2,
+            "order": 6,
+            "ar": "البحوث",
+            "dt": 2,
+            "time": "00:12",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°2′9″N 31°12′1″E"
+        },
+        "Dokki": {
+            "line": 2,
+            "order": 7,
+            "ar": "الدقي",
+            "dt": 2,
+            "time": "00:14",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°2′18″N 31°12′43″E"
+        },
+        "Opera": {
+            "line": 2,
+            "order": 8,
+            "ar": "الأوبرا",
+            "dt": 2,
+            "time": "00:16",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°2′31″N 31°13′31″E"
+        },
+        "Sadat_2": {
+            "line": 2,
+            "order": 9,
+            "ar": "السادات",
+            "dt": 3,
+            "time": "00:19",
+            "isOpen": 1,
+            "isInterchange": {
+                "to": 1,
+                "status": 1
+            },
+            "isUnderground": 1,
+            "location": "30°2′40″N 31°14′8″E"
+        },
+        "Mohamed Naguib": {
+            "line": 2,
+            "order": 10,
+            "ar": "محمد نجيب",
+            "dt": 1,
+            "time": "00:20",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°2′43″N 31°14′39″E"
+        },
+        "Attaba": {
+            "line": 2,
+            "order": 11,
+            "ar": "العتبة",
+            "dt": 2,
+            "time": "00:22",
+            "isOpen": 1,
+            "isInterchange": {
+                "to": 3,
+                "status": 1
+            },
+            "isUnderground": 1,
+            "location": "30°3′9″N 31°14′49″E"
+        },
+        "Al-Shohadaa_2": {
+            "line": 2,
+            "order": 12,
+            "ar": "الشهداء",
+            "dt": 2,
+            "time": "00:24",
+            "isOpen": 1,
+            "isInterchange": {
+                "to": 1,
+                "status": 1
+            },
+            "isUnderground": 1,
+            "location": "30°3′43″N 31°14′46″E"
+        },
+        "Masarra": {
+            "line": 2,
+            "order": 13,
+            "ar": "مسرة",
+            "dt": 2,
+            "time": "00:26",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°4′16″N 31°14′42″E"
+        },
+        "Road El-Farag": {
+            "line": 2,
+            "order": 14,
+            "ar": "روض الفرج",
+            "dt": 2,
+            "time": "00:28",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°4′50″N 31°14′44″E"
+        },
+        "St. Teresa": {
+            "line": 2,
+            "order": 15,
+            "ar": "سانتا تريزا",
+            "dt": 2,
+            "time": "00:30",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°5′18″N 31°14′44″E"
+        },
+        "Khalafawy": {
+            "line": 2,
+            "order": 16,
+            "ar": "الخلفاوي",
+            "dt": 2,
+            "time": "00:32",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°5′53″N 31°14′43″E"
+        },
+        "Mezallat": {
+            "line": 2,
+            "order": 17,
+            "ar": "المظلات",
+            "dt": 2,
+            "time": "00:34",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°6′18″N 31°14′48″E"
+        },
+        "Kolleyyet El-Zeraa": {
+            "line": 2,
+            "order": 18,
+            "ar": "كلية الزراعة",
+            "dt": 2,
+            "time": "00:36",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°6′50″N 31°14′55″E"
+        },
+        "Shubra El-Kheima": {
+            "line": 2,
+            "order": 19,
+            "ar": "شبرا الخيمة",
+            "dt": 1,
+            "time": "00:37",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°7′21″N 31°14′41″E"
+        },
+
+        "Adly Mansour": {
+            "line": 3,
+            "order": 0,
+            "ar": "عدلي منصور",
+            "dt": 0,
+            "time": "00:00",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°8′49″N 31°25′17″E"
+        },
+        "El Haykestep": {
+            "line": 3,
+            "order": 1,
+            "ar": "الهايكستب",
+            "dt": 3,
+            "time": "00:03",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°8′38″N 31°24′17″E"
+        },
+        "Omar Ibn El-Khattab": {
+            "line": 3,
+            "order": 2,
+            "ar": "عمر بن الخطاب",
+            "dt": 1,
+            "time": "00:04",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°8′26″N 31°23′39″E"
+        },
+        "Qobaa": {
+            "line": 3,
+            "order": 3,
+            "ar": "قباء",
+            "dt": 3,
+            "time": "00:07",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°8′5″N 31°23′2″E"
+        },
+        "Hesham Barakat": {
+            "line": 3,
+            "order": 4,
+            "ar": "هشام بركات",
+            "dt": 2,
+            "time": "00:09",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°7′52″N 31°22′22″E"
+        },
+        "El-Nozha": {
+            "line": 3,
+            "order": 5,
+            "ar": "النزهة",
+            "dt": 2,
+            "time": "00:11",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 0,
+            "location": "30°7′42″N 31°21′36″E"
+        },
+        "Nadi El-Shams": {
+            "line": 3,
+            "order": 6,
+            "ar": "نادي الشمس",
+            "dt": 2,
+            "time": "00:13",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°7′20″N 31°20′38″E"
+        },
+        "Alf Maskan": {
+            "line": 3,
+            "order": 7,
+            "ar": "ألف مسكن",
+            "dt": 3,
+            "time": "00:16",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°7′5″N 31°20′23″E"
+        },
+        "Heliopolis Square": {
+            "line": 3,
+            "order": 8,
+            "ar": "ميدان هليوبوليس",
+            "dt": 2,
+            "time": "00:18",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°6′29″N 31°20′17″E"
+        },
+        "Haroun": {
+            "line": 3,
+            "order": 9,
+            "ar": "هارون",
+            "dt": 2,
+            "time": "00:20",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°6′4″N 31°19′58″E"
+        },
+        "Al-Ahram": {
+            "line": 3,
+            "order": 10,
+            "ar": "الأهرام",
+            "dt": 2,
+            "time": "00:22",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°5′29″N 31°19′35″E"
+        },
+        "Koleyet El-Banat": {
+            "line": 3,
+            "order": 11,
+            "ar": "كلية البنات",
+            "dt": 2,
+            "time": "00:24",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°5′1″N 31°19′44″E"
+        },
+        "Stadium": {
+            "line": 3,
+            "order": 12,
+            "ar": "الإستاد",
+            "dt": 2,
+            "time": "00:26",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°4′23″N 31°19′3″E"
+        },
+        "Fair Zone": {
+            "line": 3,
+            "order": 13,
+            "ar": "أرض المعارض",
+            "dt": 3,
+            "time": "00:29",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°4′24″N 31°18′4″E"
+        },
+        "Abbassia": {
+            "line": 3,
+            "order": 14,
+            "ar": "العباسية",
+            "dt": 3,
+            "time": "00:32",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°4′11″N 31°16′51″E"
+        },
+        "Abdou Pasha": {
+            "line": 3,
+            "order": 15,
+            "ar": "عبده باشا",
+            "dt": 2,
+            "time": "00:34",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°3′53″N 31°16′29″E"
+        },
+        "El Geish": {
+            "line": 3,
+            "order": 16,
+            "ar": "الجيش",
+            "dt": 1,
+            "time": "00:35",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°3′43″N 31°16′1″E"
+        },
+        "Bab El Shaaria": {
+            "line": 3,
+            "order": 17,
+            "ar": "باب الشعرية",
+            "dt": 2,
+            "time": "00:37",
+            "isOpen": 1,
+            "isInterchange": 0,
+            "isUnderground": 1,
+            "location": "30°3′14″N 31°15′22″E"
+        },
+        "Attaba_3": {
+            "line": 3,
+            "order": 18,
+            "ar": "العتبة",
+            "dt": 2,
+            "time": "00:39",
+            "isOpen": 1,
+            "isInterchange": {
+                "to": 2,
+                "status": 1
+            },
+            "isUnderground": 1,
+            "location": "30°3′9″N 31°14′49″E"
+        },
+        
+        "interchangeStat":{
+            "1":["Al-Shohadaa","Nasser","Sadat"],
+            "2":["Sadat_2","Attaba","Al-Shohadaa_2"],
+            "3":["Attaba_3"]
+        },
+        "none":{
+            "line": "none",
+            "order": "none",
+            "ar": "none",
+            "dt": "none",
+            "time": "none",
+            "isOpen": "none",
+            "isInterchange": "none",
+            "isUnderground": "none",
+            "location": "none"
+        }
+        
+
+
+
+        
+        
+    }
+
+]

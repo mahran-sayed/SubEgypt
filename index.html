@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link active"> <i class="fa-solid fa-train-subway"></i> SubEgypt</a>
+                </li>
+                
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Start of content -->
+    <div class="container">
+        <div class="side">
+            <!-- Start of tab -->
+            <div class="tab">
+                <!-- Start of destination box -->
+                <div class="destination-box">
+                    <div class="from">
+                        <label for="fromList"><i class="fa-solid fa-location-dot"></i>From:</label>
+                        <select name="fromList" id="fromList" class="select-box">
+                        </select>
+                    </div>
+                    <div class="to">
+                        <label for="toList"><i class="fa-solid fa-location-dot"></i>To:</label>
+                        <select name="toList" id="toList" class="select-box">
+                        </select>
+                    </div>
+                </div>
+                <!-- End of destination box -->
+
+                <!-- Start of output box -->
+                <div class="output-box">
+                    <!-- Number of Stations Output -->
+                    <div id="station-number">
+                        <label>No. of Stations:</label>
+                        <span id="stations-output" class="output"></span>
+                    </div>
+                    <!-- Price Output -->
+                    <div id="price">
+                        <label>Price:</label> 
+                        <span id="price-output" class="output"></span>
+                    </div>
+                    <!-- Estimated Time -->
+                    <div id="estimated-time">
+                        <label>Estimated Time:</label>
+                        <span id="time-output" class="output"></span>
+                    </div>
+                </div>
+                <!-- End of output box -->
+
+                <!-- Start of Info box -->
+                <div class="info-box">
+                    <h2>Info</h2>
+                    <div class="row">
+                        <!-- Start of Start Station -->
+                        <div id="start-station">
+                            <div class="station-name">
+                            </div>
+                            <ul class="info">
+                            </ul>
+                        </div>
+                        <!-- End of End Stations -->
+                        <!-- Start of End Station -->
+                        <div id="end-station">
+                            <div class="station-name">
+                            </div>
+                            <ul class="info"> 
+                            </ul>
+                        </div>
+                        <!-- End of End Station -->
+                    </div>
+                    
+                </div>
+                <!-- End of Info box -->
+                <!-- Start of reporting -->
+                <div class="report-box">
+                    <a href="mailto:dev-mahran@outlook.com"> Report an Error?</a>
+                </div>
+                <!-- End of reporting -->
+            </div>
+            <!-- End of tab -->
+        </div>
+        <!-- Start of map -->
+        <div class="path">
+            
+
+        </div>
+        <!-- End of map -->
+
+    </div>
+    <!-- End of Content -->
+
+    <footer>
+        <p>This is not an official website.</p>
+        <p>Made by: <a href="https://github.com/mahran-sayed">Mahran</a></p>
+        
+        
+    </footer>
+
+    <script src="https://kit.fontawesome.com/e5f0d9a56a.js" crossorigin="anonymous"></script>
+    <script type = "module" src="custom.js"></script>
+</body>
+</html>
