@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 :root{
     --bgColor : #123E5C;
+    --dark-bg: #091f2e;
     --blue : #0097FE;
     --line1: #FF2B6E;
+    --dark-line1: #95002f;
     --line2: #732DFF;
+    --dark-line2: #310096;
     --line3: #AD90F4;
+    --dark-line3: #3f11b0;
     --black: #1D1E22;
 }
 *{
@@ -122,7 +126,7 @@ header::after{
 }
 .path > div{
     height: 100%;
-    margin-left: -50px;
+    margin-left: -100px;
 }
 .path .line1 ul{
     background-color: var(--line1);
@@ -144,15 +148,18 @@ header::after{
     border: 4px solid var(--line3);
 }
 .path .line1 ul li:hover::before{
-    background-color: var(--line1);
+    border-color: var(--dark-line1);
+    background-color: var(--dark-bg);
 
 }
 .path .line2 ul li:hover::before{
-    background-color: var(--line2);
+    border-color: var(--dark-line2);
+    background-color: var(--dark-bg);
 
 }
 .path .line3 ul li:hover::before{
-    background-color: var(--line3);
+    border-color: var(--dark-line3);
+    background-color: var(--dark-bg);
 
 }
 
@@ -313,7 +320,7 @@ footer{
     justify-content: center;
 }
 footer p{
-    font-size: 20px;
+    font-size: 14px;
 
 }
 footer p a{
@@ -346,5 +353,15 @@ footer p a{
     }
     .container{
         flex-direction: column;
+    }
+    .output-box{
+        width: 100%;
+    }
+    .path{
+        overflow-y: hidden;
+        align-items: flex-start;
+    }
+    .path > div{
+        margin-left: 10px;
     }
 }
