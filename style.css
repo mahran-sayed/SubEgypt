@@ -215,7 +215,7 @@ div.destination-box >  div{
 }
 .swapBtn i{
     color: #000;
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
 select {
     outline:none;
