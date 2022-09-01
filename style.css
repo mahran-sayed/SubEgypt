@@ -198,8 +198,24 @@ div.destination-box{
 div.destination-box >  div{
     display:flex;
     flex-direction:column;
-    flex:1;
+    flex:10;
     margin: 10px 5px;
+}
+.swapBtn{
+    flex: 1 !important;
+    align-self: center;
+    margin-top: 38px !important;
+    cursor: pointer;
+    background: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.swapBtn i{
+    color: #000;
+    margin: 0 auto;
 }
 select {
     outline:none;

@@ -13,6 +13,7 @@ const endStation = document.querySelector("#end-station .station-name");
 const infoStart = document.querySelector("#start-station .info");
 const infoEnd = document.querySelector("#end-station .info");
 const path = document.querySelector(".path")
+const swapBtn = document.querySelector(".swapBtn");
 // pricesMap = [number of stations, price]
 let pricesMap = new Map([
     [9,6],
@@ -86,17 +87,25 @@ function disableOption(toStat, options){
     for(let stat of options){
         if(stat.value == toStat) {
             stat.disabled = true;
-            break;
+        }else{
+            stat.disabled = false;
         }
     }
 }
 
+function swapOptions(){
+    let start = fromSelect.value,
+        end = toSelect.value;
+    fromSelect.value = end;
+    toSelect.value = start;
+    getInfo();
+}
 
+swapBtn.addEventListener("click",swapOptions)
 
 function showPath(start, end){
     let pathStr = `<div class="path-container">`;
     const stations = stationsObj.getStationsBetween(start,end);
-    console.log(stations)
     stations.forEach((path)=>{
     
         pathStr += `<div class = 'line${path.line}'><h3>Line ${path.line}</h3> <ul class = 'line'>`
