@@ -7,7 +7,7 @@ const toSelect = selectElemDiv[1];
 const stationOutput = document.querySelector("#stations-output");
 const priceOutput = document.querySelector("#price-output");
 const timeOutput = document.querySelector("#time-output");
-let stationsJSON = await readJSON('/stations.json');
+const stationsJSON = await readJSON('/stations.json');
 const startStation = document.querySelector("#start-station .station-name");
 const endStation = document.querySelector("#end-station .station-name");
 const infoStart = document.querySelector("#start-station .info");
@@ -15,12 +15,20 @@ const infoEnd = document.querySelector("#end-station .info");
 const path = document.querySelector(".path")
 const swapBtn = document.querySelector(".swapBtn");
 // pricesMap = [number of stations, price]
-let pricesMap = new Map([
+/*
+const pricesMap = new Map([
     [9,6],
     [16,8],
     [23,11],
     [29,14],
     [39,19]
+])
+*/
+
+const pricesMap = new Map([
+    [9,5],
+    [16,7],
+    [39,10],
 ])
 
 
